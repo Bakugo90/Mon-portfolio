@@ -16,27 +16,26 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/background-mosaique.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "mosaique background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a jr backend Developer and Physics student at University. I love building powerful web applications using Django/Laravel and Solving problems using scientific methods.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Web development",
+  "Software Engineering",
+  "Backend Engineering",
+  "Python(Django/flask)",
+  "PHP(Laravel)",
 ];
 
 /**
@@ -45,7 +44,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am a software engineer focus on Backend(server-side programming). I have a strong background in physics and a passion for problem-solving and programming. My early exposure to algorithmic thinking in courses such as Pascal and Fortran at school led me to pursue the application of simulation techniques in physics to real-world problems using Python(NumPy).I have the abilities to build complex systems such as web applications using django, Laravel and NodeJS.I am constantly seeking new challenges and opportunities to grow, and I thrive in collaborative environments where I can learn from others. .";
 
 const About = () => {
   return (
